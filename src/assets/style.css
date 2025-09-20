@@ -1,0 +1,103 @@
+/* font */
+.alfa-slab-one-regular {
+  font-family: 'Alfa Slab One', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+.pretendard-jp {
+  font-family: 'PretendardJPVariable';
+  src: url('fonts/PretendardJPVariable.ttf') format('truetype');
+}
+
+/* color */
+
+.basic-theme {
+  background-color: #1a00ff;
+  color: #ffffff;
+}
+
+/* component style*/
+
+.main-component {
+  position: relative;
+  width: 1050px;
+  height: 750px;
+  border-radius: 35px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: calc(100% - 80px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 24px;
+  margin-left: 40px;
+
+  .icon {
+    width: 218px;
+    height: 52px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.side-menu-button {
+  font-size: 20px;
+
+  width: 100px;
+  height: 50px;
+  margin: 26px 0;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.content-component {
+  position: relative;
+  background-color: goldenrod;
+  width: calc(100% - 46px);
+  left: 23px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+nav {
+  position: absolute;
+  top: 64px;
+  left: -100px;
+
+  width: max-content;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+}
