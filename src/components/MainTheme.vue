@@ -26,7 +26,7 @@ function currentMenu(menuName) {
       <div class="icon">
         <img src="../assets/images/title/title icon1.png" />
         <img src="../assets/images/title/title icon2.png" />
-        <img src="../assets/images/title/title icon3.png" style="margin-bottom: 18px" />
+        <img src="../assets/images/title/title icon3.png" />
       </div>
     </div>
 

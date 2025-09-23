@@ -1,0 +1,60 @@
+#profile-component {
+  width: 100%;
+  height: calc(100% - 19px);
+  border-radius: 35px;
+  background-color: #e4e4e4;
+  overflow: hidden;
+}
+
+#profile-wrapper {
+  height: 600px;
+  margin: 28px 8px 0 44px;
+  overflow-y: scroll;
+}
+
+.profile-title {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+#profile-card {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+}
+.profile-img {
+  width: 224px;
+  height: 264px;
+  border-radius: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-text {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0;
+
+  width: 650px;
+  margin: 10px 0 0 28px;
+}
+.introduction {
+  width: 920px;
+  margin: 32px 0;
+}
+/* 스크롤바 */
+#profile-wrapper::-webkit-scrollbar {
+  background-color: #ababab;
+  width: 10px;
+  border-radius: 5px;
+}
+
+#profile-wrapper::-webkit-scrollbar-thumb {
+  width: 3px;
+  background-color: #1100a7;
+  border-radius: 5px;
+}
